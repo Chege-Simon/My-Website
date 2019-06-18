@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vanila Javascript projects</title>
+</head>
+<body>
+    <style>
+        body{
+        background: #EEE;
+        font-family: serif ,sans-serif;
+        }
+        a{
+            text-decoration: none;
+        }
+        img {
+            transition: transform .2s ease-in-out;
+            width: 350px;
+            height:250px;
+            overflow: hidden;
+            margin:20px;
+            padding: 20px;
+        }
+        #header{
+            text-transform: capitalize;
+            text-align: center;
+            text-decoration: underline;
+            color: black;
+            width: 1133;
+            height:113;
+            padding: 10px;
+            background-color: #66CCFF;
+        }
+        #container{
+            height: auto;
+            padding:10;
+            margin: 10px;
+        }
+
+        #footer{
+            background-color: grey;
+            padding: 10;
+            text-align: right;
+            font-style: italic;
+            clear: both;
+        }
+        .prj {
+            float: left;
+        }
+        .prj:hover {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            text-shadow: 2px 2px 20px #000000;
+            transform: scale(1.025);
+        }
+        p {
+            text-align: center;
+        }
+    </style>
+    <div id="container">
+        <div id="title">
+            <div id="header">
+                <h1>Vanila JavaScript Project<h1>
+            </div>
+        </div>
+        <!-- <div id="navigation">
+            <a href="index.html" >Home</a> -->
+        </div>
+        <div id="content">
+            <div id="main">
+                <div class="prj">
+                        <p class="purpose">
+                            Blur and change the background color of pictures.
+                        </p>
+                    <a href="JavaScript 30 projects/blur/index.html">
+                        <img width="300" height="200" src="screenshot/blurScreenshot.png" alt="Programming Languages"/>
+                    </a>
+                </div>
+                <div class="prj">
+                        <p class="purpose">
+                            Check and cross-out your to do list.
+                        </p>
+                    <a href="JavaScript 30 projects/check-list/index.html">
+                        <img width="300" height="200" src="screenshot/Checklist.png" alt="Programming Languages"/>
+                    </a>
+                </div>
+                <div class="prj">
+                        <p class="purpose">
+                            Make a beat with the Drum Kit.
+                        </p>
+                    <a href="JavaScript 30 projects/Drum Kit/index.html">
+                        <img width="300" height="200" src="screenshot/Drum Kit.png" alt="Programming Languages"/>
+                    </a>
+                </div>
+                <div class="prj">
+                        <p class="purpose">
+                            Tap pictures to reveal more.
+                        </p>
+                    <a href="JavaScript 30 projects/picture fun/index.html">
+                        <img width="300" height="200" src="screenshot/picture funpng.png" alt="Programming Languages"/>
+                    </a>
+                </div>
+                <div class="prj">
+                        <p class="purpose">
+                            Make your study time more efficient with the timer.
+                        </p>
+                    <a href="JavaScript 30 projects/Timer/index.html">
+                        <img width="300" height="200" src="screenshot/timer.png" alt="Programming Languages"/>
+                </a>
+                </div>
+                <div class="prj">
+                        <p class="purpose">
+                            Control speed of video.
+                        </p>
+                    <a href="JavaScript 30 projects/Video Player/index.html">
+                        <img width="300" height="200" src="screenshot/Video Player.png" alt="Programming Languages"/>
+                    </a>
+                </div>
+                <div class="prj">
+                        <p class="purpose">
+                            Play the Whack the Mole Game.
+                        </p>
+                    <a href="JavaScript 30 projects/Whack a mole game/index.html">
+                        <img width="300" height="200" src="screenshot/Whack a mole.png" alt="Programming Languages"/>
+                </a>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            copywrite &copy; 2019 Pete Wright.
+        </div>
+    </div>
+    <script>
+        document.addEventListener("hover", function(){
+        document.getElementsByClassName("purpose").style="text-shadow: 2px 2px 4px #000000";
+        document.getElementsByTagName("img").style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);";
+        });
+    </script>
+</body>
+</html>

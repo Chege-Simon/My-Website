@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Video Player</title>
+  <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+
+  <div class="wrapper">
+    <video class="view" width="765" height="430" src="videos/Learn CSS in 12 Minutes ( 1080 X 1920 ).mp4" loop controls></video>
+    <div class="speed">
+      <div class="speed-bar">1×</div>
+    </div>
+  </div>
+<script>
+    const speed = document.querySelector('.speed');
+    const bar = document.querySelector('.speed-bar');
+    const video = document.querySelector('.view');
+
+    function handleMousemove(e){
+        const y = e.pageY - this.offsetTop;
+        const percent = y / this.offsetHeight;
+        const min = 0.4;
+        const max = 4;
+        const height = Math.round(percent * 100) + '%';
+        const playbackRate = percent * (max - min) + min;
+        bar.style.height = height;
+        bar.textContent = playbackRate.toFixed(2) + "x";
+        video.playbackRate = playbackRate;
+
+        console.log(percent)
+    }
+    speed.addEventListener('mousemove',handleMousemove);
+    
+</script>
+<script>
+</script>
+</body>
+</html>

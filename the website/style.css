@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),*/
+header{
+    background-image: url(pictures/forest-3840x2160-5k-4k-wallpaper-fog-eagle-landscape-wallpaper-3441.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+#nav a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    border-right: 300px;
+    color: white;
+
+}
+#nav a:hover{
+    background-color: green;
+    transition: 0.5s ease-in;
+}
+
+#nav a:active {
+    background-color: green;
+}
+#nav{
+    width: 100%;
+    height: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    float: right;
+    background-color:rgba(0, 0, 0, 0.9);
+}
+#back_top{
+    font-weight: bold;
+    text-align: center;
+    padding: 8px;
+    position: sticky;
+    bottom: 120px;
+    float: right;
+    background-color:rgba(0, 0, 0, 0.6);
+    height:25px;
+    border-radius: 100px;
+    border:2px solid rgba(0, 0, 0, 0.6);
+}
+#back_top:hover{
+    transition: 0.5s ease-in;
+    border-color: goldenrod;
+}
+#back_top a{
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    font-size: 30px;
+}
+#name{
+    text-transform: uppercase;
+    font-size: 35px;
+    text-align:center;
+    padding: 220px 0px 0px 0px;
+    margin-left: 0;
+    /* float: right; */
+    /* margin-right: 400px; */
+    /* padding-top: 20vh; */
+}
+#profession{
+    text-align: center;
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    clear: both;
+}
+.button a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    text-transform: uppercase;
+}
+#ab{
+    padding: 10px;
+    margin-left: 10px;
+    background-color: white;
+    height: 80vh;
+    margin-right: auto;
+    margin-left: auto;
+}
+h2{
+    text-transform: uppercase;
+    font-weight: 450;
+    color: black;
+    padding: 10px;
+    clear: both;
+    font-family: serif;
+    font-size: 45px;
+    text-align: center;
+}
+h4 {
+    padding: 10px;
+    text-decoration: underline;
+    margin-left: 20%;
+}
+p{
+    font-size: 20px;
+    font-family: monospace serif sans-serif;
+}
+li{
+    padding: 10px;
+    text-decoration: circle black;
+}
+.abt{
+    float: left;
+    width: 750px;
+    padding: 10px;
+}
+.abt_img{
+    float: right;
+    margin-right: 50px;
+}
+.tec_img{
+    clear:both;
+    float: right;
+    margin-right: 50px;
+}
+.prj{
+    float: right;
+    width: 750px;
+    padding: 10px;
+}
+.prj-links{
+    float: right;
+    margin-right: 8%;
+    padding: 20px;
+}
+.prj-links a + p {
+    text-decoration: none;
+    padding: 20px;
+}
+.statement {
+    float: left;
+    padding: 10px;
+}
+.prj_img{
+    clear: left;
+    float: left;
+    margin-left: 50px;
+}
+.prj-links a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    width: 50px;
+    color: rgb(61, 46, 199);
+    border-radius: 10px ;
+    border: 2px solid gold;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.prj-links a:hover{
+    text-shadow: 2px 2px 20px #000000;
+}
+#education{
+    font-family: serif sans-serif;
+    padding: 10px;
+    margin-left: 10px;
+    clear: both;
+    background-color: white;
+    height: 80vh;
+    margin-right: auto;
+    margin-left: auto;
+}
+#projects{
+    font-family: serif sans-serif;
+    padding: 10px;
+    margin-left: 10px;
+    clear: both;
+    background-color: white;
+    height: 100vh;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#name hr{
+    width: 250px;
+    color: #66CCFF;
+    /* text-align: center; */
+}
+#ab hr{
+    width: 250px;
+    color: grey;
+    /* text-align: center; */
+}
+#technical_skills hr{
+    width: 250px;
+    color: darkorange;
+    /* text-align: center; */
+}
+#education hr{
+    width: 250px;
+    color: pink;
+    /* text-align: center; */
+}
+#projects hr{
+    width: 250px;
+    color: red;
+    /* text-align: center; */
+}
+#contact hr{
+    width: 250px;
+    color: #66CCFF;
+    /* text-align: center; */
+}
+#technical_skills{
+    font-family: serif sans-serif;
+    padding: 10px;
+    margin-left: 10px;
+    clear: both;
+    background-color: #EEE;
+    height: 80vh;
+    margin-right: auto;
+    margin-left: auto;
+}
+#contact{
+    font-family: serif sans-serif;
+    padding: 10px;
+    clear: both;
+    background-color: #000066;
+    color: white;
+    text-align: center;
+}
+#contact h2{
+    color: white;
+}
+.sub{
+    background-color: #66CCFF;
+    border-radius: 10px;
+    padding: 15px;
+    border: 1px solid #000066;
+    font-size: 20px;
+}
+.entries{
+    width: 75%;
+    height: 3%;
+    font-style: italic;
+    font-size: 20px;
+    color: #808080;
+    background-color: white;
+    border-radius: 10px;
+    border-color: #000066;
+    padding: 1em;
+}
+.msg{
+    font-style: italic;
+    font-size: 20px;
+    color: #808080;
+    background-color: white;
+    border-radius: 10px;
+    border-color: #000066;
+    padding: 1em;
+    width: 75%;
+}
+.chat{
+    text-align: center;
+}
+footer{
+    clear: both;
+}
+#foot{
+    background-color:grey;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    width: 100%;
+    height: 40px;
+    border-right: 100px;
+    float: right;
+}
+h5{
+    float: right;
+}
